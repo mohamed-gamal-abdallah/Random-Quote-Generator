@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.color1 {
+    color: #0078FF;
+}
+
+.font-size-40px {
+    font-size: 40px;
+}
+
+.font-size-72px {
+    font-size: 72px;
+}
+
+
+
+#main {
+    background-image: linear-gradient(#e8bcb9,#f39f5a ,#ae445a ,#662549 ,#451952  );
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.container {
+    width: 50%;
+    height: 60vh;
+    background-color: rgba(43, 18, 76, 0.5);
+    box-shadow: 0px 0px 15px 2px rgb(134, 133, 133);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    border-radius: 1rem;
+}
+p {
+    width: 100%;
+    word-wrap: break-word;
+}
